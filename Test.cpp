@@ -56,7 +56,7 @@ TEST_CASE("Comparison operators")
     CHECK(1.5 >= n1);
     CHECK(n1 <= 0.8);
     CHECK(0.8 > n1);
-    CHECK(!(n1 == n2));
+    CHECK(!(n1==n2));
 
 }
 
