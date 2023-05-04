@@ -35,6 +35,7 @@ TEST_CASE("Fraction operators and making sure they are working on both sides of 
     CHECK(n2 / n3 == 0.5);
     CHECK(n3 * Fraction(0,5) == 0.0);
     CHECK_THROWS(n2 / 0.0);
+    CHECK(2.5 * n1 == Fraction(5,1));
 }
 
 TEST_CASE("Comparison operators")
